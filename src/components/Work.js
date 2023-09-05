@@ -10,7 +10,7 @@ import Img3 from "../assets/portfolio-img3.png";
 
 const Work = () => {
   return (
-    <section className="section" id="work">
+    <section className="section lg:mt-80  md:pt-20" id="work">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row gap-x-10">
           <motion.div
@@ -26,7 +26,7 @@ const Work = () => {
                 My Recent <br />
                 Project.
               </h2>
-              <p className="max-w-sm mb-16">
+              <p className="max-w-sm mb-10">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo,
                 soluta. Quae nam quasi aspernatur, consectetur, beatae ullam
                 vero dolorem ratione sint, nesciunt in?
@@ -66,15 +66,15 @@ const Work = () => {
               </div>
             </div>
           </motion.div>
-          <motion.div
+          <div
+            className="flex-1 flex flex-col gap-y-12 lg:gap-y-10"
+          >
+            {/* image */}
+            <motion.div
             variants={fadeIn("left", 0.2)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 flex flex-col gap-y-10"
-          >
-            {/* image */}
-            <div
               className="group relative overflow-hidden border-2
              border-white/50 rounded-xl"
             >
@@ -95,7 +95,7 @@ const Work = () => {
               transition-all duration-500 z-50"
               >
                 {" "}
-                <span className="text-gradient">UI/UX Design</span>
+                <span className="text-gradient">Travilling-App</span>
               </div>
               {/* title */}
               <div
@@ -104,8 +104,12 @@ const Work = () => {
               >
                 <span className="text-3xl text-white">Project Title</span>
               </div>
-            </div>
-            <div
+            </motion.div>
+            <motion.div
+            variants={fadeIn("right", 0.3)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.4 }}
               className="group relative overflow-hidden border-2
              border-white/50 rounded-xl"
             >
@@ -126,7 +130,7 @@ const Work = () => {
               transition-all duration-500 z-50"
               >
                 {" "}
-                <span className="text-gradient">UI/UX Design</span>
+                <span className="text-gradient">Weather-App</span>
               </div>
               {/* title */}
               <div
@@ -135,8 +139,8 @@ const Work = () => {
               >
                 <span className="text-3xl text-white">Project Title</span>
               </div>
-            </div>
-          </motion.div>
+            </motion.div>
+          </div>
         </div>
       </div>
     </section>

@@ -28,5 +28,19 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>export function emailSend(){
+        Email.send({
+          Host : "smtp.elasticemail.com",
+          Username : "faugjeegaming@gmail.com",
+          Password : "8A3C90B43D543DF99898C3ED58A806CF8CA5",
+          To : 'hitenpatdiya1234@gmail.com',
+          From : "faugjeegaming@gmail.com",
+          Subject : "This is the subject",
+          Body : "And this is the body"
+      }).then(
+        message => alert(message)
+      );
+    }</script>
   </body>
 </html>

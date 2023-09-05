@@ -1,6 +1,4 @@
 import React from "react";
-// images
-import Logo from "../assets/logo.svg";
 
 const Header = () => {
   return (
@@ -15,7 +13,7 @@ const Header = () => {
             </span>
           </a>
           {/* button */}
-          <button className="btn btn-sm">Work with me</button>
+          {/* <button className="btn btn-sm">Work with me</button> */}
         </div>
       </div>
     </header>

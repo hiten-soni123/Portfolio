@@ -12,7 +12,7 @@ import { fadeIn } from "../variants";
 const Banner = () => {
   return (
     <section
-      className="min-h-[85vh] lg:min-h-[78vh] flex items-center lg:mb-20"
+      className="min-h-[85vh] lg:min-h-[78vh] flex items-center lg:mb-40"
       id="home"
     >
       <div className="container mx-auto">
@@ -66,8 +66,7 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-8 max-w-lg mx-auto lg:mx-0"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-              voluptas sequi ex vero veritatis.
+              
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.6)}
@@ -76,9 +75,10 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
             >
-              <button className="btn btn-lg">Contact me</button>
+              <a  href="mailto:hitenpatdiya1234@gmail.com"> <button className="btn btn-lg" >Contact me</button></a>
+             
               <a href="#" className="text-gradient btn-link">
-                My Poetfolio
+                Download CV
               </a>
             </motion.div>
             {/* socials */}
@@ -87,18 +87,18 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="flex text-[20px] gap-x-7 max-w-max mx-auto lg:mx-0"
+              className="flex text-[20px] gap-x-7 max-w-max mx-auto lg:mx-4"
             >
-              <a href="#">
+              <a href="https://www.instagram.com/hiten__soni/">
                 <FaInstagram />
               </a>
-              <a href="#">
+              <a href="mailto:hitenpatdiya1234@gmail.com">
                 <MdOutlineMailOutline />
               </a>
-              <a href="#">
+              <a href="https://github.com/hiten-soni123">
                 <FaGithub />
               </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/hiten-patadiya-4bb0a5202/">
                 <FaLinkedinIn />
               </a>
             </motion.div>

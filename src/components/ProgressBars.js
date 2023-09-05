@@ -20,16 +20,16 @@ const ProgressBars = () => {
   ];
 
   return (
-    <section className="py-16 lg:section">
+    <section className="lg:section min-h-[85vh] lg:min-h-[78vh] flex items-center pt-60 lg:pt-80 ">
       <motion.div
         variants={fadeIn("left", 0.4)}
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: false, amount: 0.3 }}
-        className="container mx-auto py-4"
+        className="container mx-auto"
         id="progressbars"
       >
-        <h1 className="font-semibold text-2xl mb-4">
+        <h1 className="font-semibold text-2xl mb-4 mt-60 lg:mt-0 md:mt-0">
           Programming Language Knowledge
         </h1>
         <div className="w-full">
