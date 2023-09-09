@@ -29,7 +29,7 @@ const Work = () => {
               <p className="max-w-sm md:max-w-full mb-5 text-justify">
               Welcome to my portfolio, where you may look through all of the work I've done. I recently graduated with a strong background in computer science, which has given me the chance to create and work with others on a variety of intriguing projects that highlight my technical expertise and creativity.
               </p>
-              <a href="https://github.com/hiten-soni123" target="_blank">
+              <a href="https://github.com/hiten-soni123" target="_blank" rel="noreferrer">
               <button className="btn btn-sm">View all projects</button></a>
             </div>
             {/* Image */}
