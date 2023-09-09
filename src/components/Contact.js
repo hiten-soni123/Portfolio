@@ -103,7 +103,7 @@ const Contact = () => {
             />
             <textarea
               className="bg-transparent border-b py-12 outline-none w-full
-               placeholder:text-white focus:border-accent transition-all resize-none mb-12"
+               placeholder:text-white focus:border-accent transition-all resize-none"
               placeholder="Your message"
               name="message"
               value={message}

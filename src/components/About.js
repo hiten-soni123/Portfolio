@@ -12,7 +12,7 @@ const About = () => {
     threshold: 0.5,
   });
   return (
-    <section className="section min-h-[85vh] lg:min-h-[78vh] flex items-center mb-80 lg:mb-0  " id="about" ref={ref}>
+    <section className="section min-h-[85vh] lg:min-h-[78vh] flex items-center mb-80 lg:mb-32  " id="about" ref={ref}>
       <div className="container mx-auto">
         <div
           className="lg:flex flex-col gap-y-10  lg:flex-row lg:items-center lg:gap-x-20
@@ -78,7 +78,8 @@ const About = () => {
               </div> */}
             </div>
             <div className="flex gap-x-4 items-center">
-              <button className="btn btn-lg">Download CV</button>
+              <a href="https://drive.google.com/file/d/1H0VQmEANe1IyCDHfdvbkI3vsx7PPuRfP/view?usp=sharing">
+              <button className="btn btn-lg">Download CV</button></a>
             </div>
           </motion.div>
         </div>

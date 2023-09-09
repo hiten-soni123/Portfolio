@@ -26,12 +26,11 @@ const Work = () => {
                 My Recent <br />
                 Project.
               </h2>
-              <p className="max-w-sm mb-10">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo,
-                soluta. Quae nam quasi aspernatur, consectetur, beatae ullam
-                vero dolorem ratione sint, nesciunt in?
+              <p className="max-w-sm md:max-w-full mb-5 text-justify">
+              Welcome to my portfolio, where you may look through all of the work I've done. I recently graduated with a strong background in computer science, which has given me the chance to create and work with others on a variety of intriguing projects that highlight my technical expertise and creativity.
               </p>
-              <button className="btn btn-sm">View all projects</button>
+              <a href="https://github.com/hiten-soni123" target="_blank">
+              <button className="btn btn-sm">View all projects</button></a>
             </div>
             {/* Image */}
             <div
@@ -67,7 +66,7 @@ const Work = () => {
             </div>
           </motion.div>
           <div
-            className="flex-1 flex flex-col gap-y-12 lg:gap-y-10"
+            className="flex-1 flex flex-col gap-y-12 lg:gap-y-20 lg:pt-20 xl:pt-0 xl:gap-y-8"
           >
             {/* image */}
             <motion.div
