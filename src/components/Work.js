@@ -27,21 +27,24 @@ const Work = () => {
                 Project.
               </h2>
               <p className="max-w-sm md:max-w-full mb-5 text-justify">
-              Welcome to my portfolio, where you may look through all of the work I've done. I recently graduated with a strong background in computer science, which has given me the chance to create and work with others on a variety of intriguing projects that highlight my technical expertise and creativity.
+              Welcome to my portfolio, where you may look through all of the work I've done. I have strong background in computer science fundamentals , which has given me the chance to create and work with others on a variety of intriguing projects that highlight my technical expertise and creativity.
               </p>
               <a href="https://github.com/hiten-soni123" target="_blank" rel="noreferrer">
               <button className="btn btn-sm">View all projects</button></a>
             </div>
             {/* Image */}
+          
             <div
               className="group relative overflow-hidden border-2
              border-white/50 rounded-xl"
             >
               {/* overlay */}
+              <a href="https://github.com/hiten-soni123/Stock-Imgae-download-/tree/main">
               <div
                 className="group-hover:bg-black/70 w-full h-full 
               absolute z-40 transition-all duration-300"
-              ></div>
+              ></div></a>
+            
               {/* img */}
               <img
                 className="group-hover:scale-125 transition-all duration-500"
@@ -54,7 +57,7 @@ const Work = () => {
               transition-all duration-500 z-50"
               >
                 {" "}
-                <span className="text-gradient">UI/UX Design</span>
+                <span className="text-gradient">Stock Imgae Download Website</span>
               </div>
               {/* title */}
               <div
@@ -64,9 +67,10 @@ const Work = () => {
                 <span className="text-3xl text-white">Project Title</span>
               </div>
             </div>
+            
           </motion.div>
           <div
-            className="flex-1 flex flex-col gap-y-12 lg:gap-y-20 lg:pt-20 xl:pt-0 xl:gap-y-8"
+            className="flex-1 flex flex-col gap-y-12 lg:gap-y-20 lg:pt-12 xl:pt-0 xl:gap-y-8"
           >
             {/* image */}
             <motion.div
@@ -78,10 +82,11 @@ const Work = () => {
              border-white/50 rounded-xl"
             >
               {/* overlay */}
+              <a href="https://github.com/hiten-soni123/travelling-app">
               <div
                 className="group-hover:bg-black/70 w-full h-full 
               absolute z-40 transition-all duration-300"
-              ></div>
+              ></div></a>
               {/* img */}
               <img
                 className="group-hover:scale-125 transition-all duration-500"
@@ -113,10 +118,11 @@ const Work = () => {
              border-white/50 rounded-xl"
             >
               {/* overlay */}
+              <a href="https://github.com/hiten-soni123/Weather-App">
               <div
                 className="group-hover:bg-black/70 w-full h-full 
               absolute z-40 transition-all duration-300"
-              ></div>
+              ></div></a>
               {/* img */}
               <img
                 className="group-hover:scale-125 transition-all duration-500"
