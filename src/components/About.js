@@ -78,7 +78,7 @@ const About = () => {
               </div> */}
             </div>
             <div className="flex gap-x-4 items-center">
-              <a href="https://drive.google.com/file/d/1H0VQmEANe1IyCDHfdvbkI3vsx7PPuRfP/view?usp=sharing">
+              <a href="https://drive.google.com/file/d/1tpgdhgluiaKjXvrApBPT3OsgWvjvtpSA/view?usp=sharing">
               <button className="btn btn-lg">Download CV</button></a>
             </div>
           </motion.div>

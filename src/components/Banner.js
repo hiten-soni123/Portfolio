@@ -77,7 +77,7 @@ const Banner = () => {
             >
               <a  href="mailto:hitenpatdiya1234@gmail.com"> <button className="btn btn-lg" >Contact me</button></a>
              
-              <a href="https://drive.google.com/file/d/1H0VQmEANe1IyCDHfdvbkI3vsx7PPuRfP/view?usp=sharing" className="text-gradient btn-link">
+              <a href="https://drive.google.com/file/d/1tpgdhgluiaKjXvrApBPT3OsgWvjvtpSA/view?usp=sharing" className="text-gradient btn-link">
                 Download CV
               </a>
             </motion.div>
